@@ -21,6 +21,7 @@
 }
 
 #menu {
+    display: flex;  
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 500;
@@ -33,7 +34,7 @@
     cursor: pointer;
 }
 
-.menu {
+.menu_a {
     margin-top: 0.8rem;
     padding: 0%;
     border: 0%;
