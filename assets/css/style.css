@@ -9,7 +9,7 @@
 
 #body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #070c0f 16.62%, #1a1a3a 85.61%);
+    background: linear-gradient(68.15deg, #0d151a 16.62%, #5f2f69 85.61%);
 }
 
 #cabecalho {
@@ -42,8 +42,8 @@
     color: white;
 }
 
-.menu:hover {
-    color: rgb(206, 255, 243);
+.menu_a:hover {
+    color: rgb(0, 0, 0);
 }
 
 a:visited {
@@ -51,11 +51,15 @@ a:visited {
     text-decoration: none;
 }
 
+a:link {
+    color: white;
+}
+
 #titulo_1 {
     font-family: 'Righteous', sans-serif;
     font-weight: 100;
     font-size: 42px;
-    color: rgb(206, 255, 243);
+    color: white;
     margin-right: 180px;
     margin-left: 18px;
 }
@@ -114,20 +118,22 @@ a:visited {
     height: 60px;
 }
 
-.botao:hover {
-background-color: rgba(236, 214, 196, 0.53);
+#botao:hover {
+background-color: rgba(73, 73, 73, 0.53);
+color: white;
 }
 
-.botao:active {
-    background-color: rgb(255, 246, 121);
-    color: rgb(0, 0, 0);
+#botao:active {
+    background-color: rgb(84, 56, 100);
+    color: rgb(255, 255, 255);
 }
 
 #div_img {
     height: 400px;
     margin-top: 2rem;
     float: right;
-    margin-left: 14rem;
+    margin-left: 12em;
+    opacity: 65%;
 }
 
 #div_2 {

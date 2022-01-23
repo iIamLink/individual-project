@@ -7,21 +7,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-variant: 'Ubuntu';
-    background-color: rgb(26, 34, 44);
+    background-color: rgb(22, 41, 63);
     color: rgb(255, 255, 255);
-}
-
-.media-btc {
-    position: absolute;
-    top: 19rem;
-    left: 6rem;
-}
-
-.media-criptomoedas {
-    position: absolute;
-    top: 6rem;
-    left: 54rem;
-    height: 480px;
 }
 
 .cardoso {
@@ -32,7 +19,7 @@
     font-size: 35px;
     align-items: left;
     flex-direction: column;
-    color: rgb(206, 255, 243);
+    color: white;
     text-decoration: none;
 }
 
@@ -42,7 +29,7 @@ a:visited {
 
 form h2 {
     font-size: 32px;
-    color: rgb(206, 255, 243);
+    color: white;
 }
 
 main form {
@@ -59,13 +46,13 @@ main form label {
 main form label span {
     font-size: 1.1rem;
     margin-top: 0.5rem;
-    color: rgb(206, 255, 243);
+    color: white;
 }
 
 main form p {
     margin-top: 1rem;
     font-size: 13px;
-    color: rgb(206, 255, 243);
+    color: white;
 }
  
 main form input {
@@ -77,7 +64,6 @@ main form input {
     outline: none;
     color: black;
     font-size: 18px;
-    border: 1px solid #0059ff;
     border-radius: 8px;
 }
 
@@ -95,5 +81,5 @@ main form input[type="submit"] {
 }
 
 main form input[type="submit"]:hover {
-    background: rgb(0, 224, 168);
+    background: rgb(0, 71, 224);
 }

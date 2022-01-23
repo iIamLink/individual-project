@@ -7,21 +7,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-variant: 'Ubuntu';
-    background-color: rgb(26, 34, 44);
+    background-color: rgb(22, 41, 63);
     color: rgb(255, 255, 255);
-}
-
-.media-btc {
-    position: absolute;
-    top: 19rem;
-    left: 6rem;
-}
-
-.media-criptomoedas {
-    position: absolute;
-    top: 6rem;
-    left: 54rem;
-    height: 480px;
 }
 
 .cardoso {
@@ -32,7 +19,7 @@
     font-size: 35px;
     align-items: left;
     flex-direction: column;
-    color: rgb(206, 255, 243);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -42,7 +29,7 @@
 
 .h2 {
     font-size: 32px;
-    color: rgb(206, 255, 243);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: 25px;
 }
@@ -59,14 +46,14 @@
     flex-direction: column; 
     font-size: 19px;
     margin-top: 0.8rem;
-    color: rgb(206, 255, 243);
+    color: rgb(255, 255, 255);
 }
 
 .p {
     margin-top: 1.5rem;
     margin-bottom: 0.3rem;
     font-size: 13px;
-    color: rgb(206, 255, 243);
+    color: rgb(255, 255, 255);
 }
  
 main form input {
@@ -78,8 +65,9 @@ main form input {
     outline: none;
     color: black;
     font-size: 16px;
-    border: 1px solid #0059ff;
-    border-radius: 8px;
+    border-color: white;
+    border-radius: 10px;
+    
 }
 
 .input [type="submit"] {
@@ -88,7 +76,7 @@ main form input {
     border: none;
     width: 300px;
     height: 48px;
-    border-radius: 5px;
+    border-radius: 12px;
     background: rgb(78, 112, 153);
     color: rgb(206, 255, 243);
     font-size: 1.2rem;
@@ -96,7 +84,7 @@ main form input {
 }
 
 .input [type="submit"]:hover {
-    background: rgb(0, 224, 168);
+    background: rgb(0, 71, 224);
 }
 
 .footer {
