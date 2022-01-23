@@ -20,16 +20,7 @@
     padding: 20px;
 }
 
-#cabecalho_img {
-    opacity: 50%;
-    height: 80px;
-    width: 80px;
-    margin: none;
-    padding: none;
-    cursor: pointer;    
-}
-
-#cabecalho_menu {
+#menu {
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 500;
@@ -56,6 +47,7 @@
 
 a:visited {
     color: white;
+    text-decoration: none;
 }
 
 #titulo_1 {
@@ -64,7 +56,7 @@ a:visited {
     font-size: 42px;
     color: rgb(206, 255, 243);
     margin-right: 180px;
-    margin-left: 2px;
+    margin-left: 18px;
 }
 
 #main {
@@ -72,7 +64,7 @@ a:visited {
     border-top: 0.4px solid #FFF2E7;
 }
 
-#section_1 {
+#div_1 {
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -82,7 +74,7 @@ a:visited {
     margin-left: 5rem;
 }
 
-#div_1 {
+#div_in {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -103,7 +95,7 @@ a:visited {
     color: #ECD6C4;
 }
 
-.botao {
+#botao {
     background-color: #ECD6C4;
     width: 180px;
     height: 60px;
@@ -130,14 +122,14 @@ background-color: rgba(236, 214, 196, 0.53);
     color: rgb(0, 0, 0);
 }
 
-#section_img {
+#div_img {
     height: 400px;
     margin-top: 2rem;
     float: right;
     margin-left: 14rem;
 }
 
-#section_2 {
+#div_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,7 +146,7 @@ background-color: rgba(236, 214, 196, 0.53);
     margin-bottom: 15px;
 }
 
-.section_2_paragrafos {
+.div_2_p {
     font-family: 'Sarala';
     font-weight: 300;
     font-size: 18px;
@@ -170,9 +162,5 @@ background-color: rgba(236, 214, 196, 0.53);
     padding-bottom: none;
     padding-top: 30px;
     font-size: 14px;
-    color: white;
-}
-
-:visited {
     color: white;
 }
