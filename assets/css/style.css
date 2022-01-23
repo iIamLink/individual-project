@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 *{
+    border: 0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,34 +9,28 @@
 }
 
 #body {
-    font-size: 100%;
     background: linear-gradient(68.15deg, #0d151a 16.62%, #5f2f69 85.61%);
 }
 
 #cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
     padding: 20px;
 }
 
-#menu {
+.menu {
     display: flex;  
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 500;
     font-size: 20px;
-    margin: none;
-    display: flex;
-    padding: none;
-    border: none;
-    gap: 35px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    gap: 50px;
     cursor: pointer;
 }
 
 .menu_a {
-    margin-top: 0.8rem;
+    margin-top: 0.8em;
     padding: 0%;
     border: 0%;
     text-decoration: none;
@@ -60,13 +55,14 @@ a:link {
     font-weight: 100;
     font-size: 42px;
     color: white;
-    margin-right: 180px;
-    margin-left: 18px;
+    margin-right: 10rem;
+    margin-left: 0.5em;
 }
 
 #main {
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;
+    margin-top: 10px;
 }
 
 #div_1 {
@@ -90,7 +86,6 @@ a:link {
     font-weight: 200;
     font-size: 60px;
     color: #FFF2E7;
-    margin-right: 0;  
 }
 
 #subtitulo {
@@ -119,8 +114,8 @@ a:link {
 }
 
 #botao:hover {
-background-color: rgba(73, 73, 73, 0.53);
-color: white;
+    background-color: rgba(73, 73, 73, 0.53);
+    color: white;
 }
 
 #botao:active {
@@ -129,9 +124,9 @@ color: white;
 }
 
 #div_img {
+    display: flex;
     height: 400px;
-    margin-top: 2rem;
-    float: right;
+    margin-top: 4rem;
     margin-left: 12em;
     opacity: 65%;
 }
@@ -145,7 +140,7 @@ color: white;
 }
 #titulo_3 {
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
+    padding-top: 3rem;
     font-family: 'Righteous', cursivse;
     font-weight: 400;
     font-size: 24px;
