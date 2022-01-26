@@ -89,32 +89,32 @@ ul li {
     }
 }
 
-#section {
-    position: relative;
-    left: 10vh;
-    top: 32vh;
-    display: flex; 
-    flex-direction: row;
+#div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-around;
-    float: left;
-    z-index: -100;
 }
 
-#div {
-    position: relative;
+#div_in {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    z-index: -100;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 3em;
+    padding: 5%;
 }
 
 #title_2 {
     font-family: 'Righteous', cursivse;
-    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 60px;
+    text-align: center;
     color: #FFF2E7;
-    z-index: -100;
 }
 
 #subtitle {
@@ -122,13 +122,13 @@ ul li {
     font-weight: 400;
     font-size: 24px;
     color: #ECD6C4;
-    z-index: -100;
+    justify-content: center;
 }
 
 #button {
     background-color: #ECD6C4;
-    width: 180px;
-    height: 60px;
+    width: 80%;
+    height: 100%;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
@@ -136,13 +136,11 @@ ul li {
     font-size: 22px;
     color: black;
     cursor: pointer;  
-    z-index: -100;
 }
 
 #register {
-    width: 180px;
-    height: 60px;
-    z-index: -100;
+    width: 20%;
+    height: 4em;
 }
 
 #button:hover {
@@ -155,22 +153,10 @@ ul li {
     color: rgb(255, 255, 255);
 }
 
-#img {
-    display: flex;
-    height: 550px;
-    position: fixed;
-    top: 10vh;
-    left: 110vh;
-    opacity: 30%;
-    z-index: -10;
-}
-
 #div_2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
-    margin-top: 30rem;
 }
 #title_3 {
     border-top: 0.4px solid #FFF2E7;
@@ -179,32 +165,31 @@ ul li {
     font-weight: 400;
     font-size: 24px;
     color: #FFF2E7;
-    margin-bottom: 15px;
+    
 }
 
-.section_p {
+.div_p {
     position: relative;
     display: flex;
     font-family: 'Sarala';
     flex-direction: column;
     align-items: center;
-    font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: #ECD6C4;
-    top: 90vh;
-    right: 50vh;
     text-align: center;
-    gap: 10px;
-    z-index: -1000;
-    
+    gap: 4rem;
+    margin-bottom: 15%;
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     position: relative;
     font-family: 'Sarala';
     text-align: right;
     font-size: 14px;
     color: white;
-    top: 36vh;
-    right: 1vh;
+    gap: 30px;
+    margin-right: 10px;
 }
