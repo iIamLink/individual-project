@@ -23,6 +23,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-shadow: 1px 1px black;
 }
 
 ul li {
@@ -75,19 +76,7 @@ ul li {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 1260px) {
-    .toggle {
-        display: block;
-        order: 1;
 
-    }
-    .item {
-        order: 2;
-        width: 100%;
-        text-align: center;
-        display: none;
-    }
-}
 
 #div {
     width: 100%;
@@ -105,6 +94,7 @@ ul li {
     justify-content: flex-end;
     gap: 3em;
     padding: 5%;
+    text-shadow: 2px 2px black;
 }
 
 #title_2 {
@@ -136,6 +126,8 @@ ul li {
     font-size: 22px;
     color: black;
     cursor: pointer;  
+    align-items: center;    
+    text-align: center;
 }
 
 #register {
@@ -168,7 +160,7 @@ ul li {
     
 }
 
-.div_p {
+#div_p {
     position: relative;
     display: flex;
     font-family: 'Sarala';
@@ -192,4 +184,114 @@ ul li {
     color: white;
     gap: 30px;
     margin-right: 10px;
+}
+
+@media screen and (min-width: 1920px) {
+    nav {
+        width: 95%;
+    }
+    .logo {
+        display: flex;
+        font-size: 60px;
+    }
+    .a {
+        display: flex;
+        font-size: 28px;
+    }
+    .item {
+        display: flex;
+        font-size: 40px;
+        text-align: center;
+    }
+    .footer {
+        font-size: 22px;
+    }
+    #title_2 {
+        width: 50%;
+        font-size: 80px;
+        justify-content: flex-start;
+    }
+    #button {
+        font-size: 28px;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    #subtitle {
+        font-size: 45px;
+        justify-content: flex-start;
+    }
+    #register {
+        width: 200px;
+        height: 100px;
+    }
+    #div_in {
+        align-items: left;
+        text-align: center;
+    }
+    #title_3 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 35px;
+    }
+    #div_p {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .toggle {
+        display: block;
+        order: 1;
+
+    }
+    .item {
+        order: 2;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .toggle {
+        display: block;
+        order: 1;
+    }
+    .item {
+        order: 2;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .logo { 
+       font-size: 35px;
+    }
+    #title_2{
+        width: 120%;
+        font-size: 50px;
+    }
+    #button {
+        font-size: 28px;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    #register {
+        width: 200px;
+        height: 100px;
+    }
+    #div_in {
+        align-items: center;
+        text-align: center;
+    }
+    #div {
+        height: 90vh;
+    }
 }
