@@ -256,6 +256,10 @@ ul li {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+    background: linear-gradient(20.15deg, #2f0d50 20.62%, rgb(206, 56, 243) 100.61%);
+    width:95%;
+}
     .toggle {
         display: block;
         order: 1;
@@ -270,10 +274,11 @@ ul li {
         display: none;
     }
     .logo { 
-       font-size: 35px;
+       font-size: 32px;
+       
     }
     #title_2{
-        width: 120%;
+        width: 100%;
         font-size: 50px;
     }
     #button {
@@ -292,6 +297,10 @@ ul li {
         text-align: center;
     }
     #div {
-        height: 90vh;
+        height: 100vh;
+    }
+    #div_p {
+        margin-top: 70px;
+        margin-bottom: 200px;
     }
 }
