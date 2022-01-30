@@ -117,8 +117,8 @@ ul li {
 
 #button {
     background-color: #ECD6C4;
-    width: 80%;
-    height: 100%;
+    width: 200px;
+    height: 70px;
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 17px;
@@ -257,7 +257,6 @@ ul li {
 
 @media screen and (max-width: 480px) {
     body {
-    background: linear-gradient(20.15deg, #2f0d50 20.62%, rgb(206, 56, 243) 100.61%);
     width:95%;
 }
     .toggle {
